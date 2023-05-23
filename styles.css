@@ -1,0 +1,63 @@
+body {
+    background-color: #383838;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #coma, #zero2 {
+    font-family: "Google Sans";
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #00e1ff;
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #zero:hover, #coma:hover, #zero2:hover {
+    background-color: #00c6e0;
+}
+
+#plus, #kurang, #kali, #ce, #divide, #persent, #backspace {
+    font-family: "Google Sans";
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(255, 114, 114);
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#plus:hover, #kurang:hover, #kali:hover, #ce:hover, #divide:hover, #persent:hover, #backspace:hover {
+    background-color: rgb(209, 95, 95);
+}
+
+#equals {
+    font-family: "Google Sans";
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(255, 0, 212);
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#equals:hover {
+    background-color: rgb(219, 0, 183);
+}
+
+#textbox {
+    background-color: antiquewhite;
+    width: 430px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5%;
+    font-family: "Google Sans";
+    font-weight: bold;
+    font-size: 70px;
+    text-align: right;
+}
