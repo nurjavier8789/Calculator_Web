@@ -70,3 +70,19 @@ function bagi() {
 function persen() {
     document.getElementById("textbox").value += "%";
 }
+
+function dot() {
+    document.getElementById("textbox").value += ".";
+}
+
+function isNumberKey(evt) {
+    var charCode = (evt.which) ? evt.which : evt.keyCode
+
+    if (charCode == 42 || charCode == 37 || charCode == 43 || charCode == 45 || charCode == 120 || charCode == 47 || charCode == 46) {
+        return true;
+    }
+
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+}

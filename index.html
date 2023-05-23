@@ -10,9 +10,13 @@
 </head>
 
 <body>
+    <center>
+        <div id="beta">This calculator still under development</div>
+    </center>
+
     <script src="Script.js"></script>
     <center>
-        <input type="text" id="textbox" value=""> <br>
+        <input type="text" id="textbox" value="" onkeypress="return isNumberKey(event)" /> <br>
         <div class="kel">
             <button id="ce" onclick="ce()">CE</button>
             <button id="persent" onclick="persen()">%</button>
@@ -32,7 +36,7 @@
             <button id="plus" onclick="plus()">+</button> <br>
             <button id="zero2"  onclick="zero2()">00</button>
             <button id="zero" onclick="zero()">0</button>
-            <button id="coma">.</button>
+            <button id="coma" onclick="dot()">.</button>
             <button id="equals">=</button>
         </div>
     </center>

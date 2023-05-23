@@ -1,5 +1,15 @@
 body {
     background-color: #383838;
+    font-family: "Google Sans";
+}
+
+#beta {
+    font-weight: bold;
+    font-size: 32px;
+    background-color: #00e1ff;
+    padding-top: 40px;
+    height: 90px;
+    width: 100%;
 }
 
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #coma, #zero2 {
